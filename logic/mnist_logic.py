@@ -106,7 +106,6 @@ def show_test_acc(count,data,label):
     plt.savefig("./mnist_test_acc.png")
 
 def main(_):
-
     mnist, x, y = load_data()
     y_l = nn_layer(x, 784, 10, tf.identity)
     loss = loss_prediction(y, y_l)
@@ -132,11 +131,11 @@ def main(_):
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
-  parser.add_argument('--max_steps', type=int, default=200000,
+  parser.add_argument('--max_steps', type=int, default=100000,
                       help='Number of steps to run trainer.')
   parser.add_argument('--learning_rate', type=float, default=0.001,
                       help='Initial learning rate')
-  parser.add_argument('--data_dir',type=str,default=r"C:\tantao\pycharm\workspace\acadg_new\MNIST_data",
+  parser.add_argument('--data_dir',type=str,default=r"./MNIST_data",
                       help='Directory for storing input data')
   FLAGS, unparsed = parser.parse_known_args()
   tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)
