@@ -4,6 +4,7 @@ from matplotlib import pyplot as plt
 import argparse
 import sys
 import pandas as pd
+import time
 
 from optimizer.Adam import AdamOptimizer
 from optimizer.AMSGrad import AMSGradOptimizer
@@ -52,7 +53,7 @@ def optimization(name, cross_entropy):
     return train_step
 
 
-def iterations(mnist, input_tensor, labels, keep_prob, loss, accuracy, optimizate):
+def iterations(name, mnist, input_tensor, labels, keep_prob, loss, accuracy, optimizate, start_time):
     init = tf.global_variables_initializer()
     sess = tf.Session()
     sess.run(init)
@@ -64,6 +65,7 @@ def iterations(mnist, input_tensor, labels, keep_prob, loss, accuracy, optimizat
     train_acc_data = 0
     test_acc_data = 0
     count = []
+    mytime = []
     prob_train = FLAGS.dropout
     prob_test = 1.0
     for i in range(FLAGS.max_steps):
@@ -74,19 +76,25 @@ def iterations(mnist, input_tensor, labels, keep_prob, loss, accuracy, optimizat
             count.append(i)
             train_loss.append(loss_train)
             train_acc.append(acc_train)
-            test_loss.append(sess.run(loss, feed_dict={input_tensor: mnist.test.images, labels: mnist.test.labels,
-                                                       keep_prob: prob_test}))
-            test_acc.append(sess.run(accuracy, feed_dict={input_tensor: mnist.test.images, labels: mnist.test.labels,
-                                                          keep_prob: prob_test}))
-        if (i == FLAGS.max_steps-1):
+            loss_test, acc_test = sess.run([loss, accuracy],
+                                           feed_dict={input_tensor: mnist.test.images, labels: mnist.test.labels,
+                                                      keep_prob: prob_test})
+            test_loss.append(loss_test)
+            test_acc.append(acc_test)
+            mytime.append(time.time() - start_time)
+            print(
+                "After %.5f time,g_step is %d,train_loss is %.5f,train_acc is %.5f,test_loss is %.5f,test_acc is %.5f" % (
+                time.time() - start_time, i, loss_train, acc_train,loss_test, acc_test))
+        if (i == FLAGS.max_steps - 1):
             train_acc_data = sess.run(accuracy,
                                       feed_dict={input_tensor: mnist.train.images, labels: mnist.train.labels,
                                                  keep_prob: prob_test})
             test_acc_data = sess.run(accuracy, feed_dict={input_tensor: mnist.test.images, labels: mnist.test.labels,
                                                           keep_prob: prob_test})
+            print(name + "的train和test准确率：", end="")
             print(train_acc_data, end=" ")
             print(test_acc_data)
-    return count, train_loss, test_loss, train_acc, test_acc, train_acc_data, test_acc_data
+    return count, train_loss, test_loss, train_acc, test_acc, train_acc_data, test_acc_data,mytime
 
 
 def show_train_loss(count, data, label):
@@ -124,9 +132,43 @@ def show_test_acc(count, data, label):
     plt.legend()
     plt.savefig("./mnist_test_acc.png")
 
+def show_train_loss_time(time, data, label):
+    plt.figure(5)
+    plt.ylabel("Train loss")
+    plt.xlabel("Time")
+    plt.plot(time, data, label=label)
+    plt.legend()
+    plt.savefig("./mnist_train_loss_time.png")
+
+
+def show_train_acc_time(time, data, label):
+    plt.figure(6)
+    plt.ylabel("Train acc")
+    plt.xlabel("Time")
+    plt.plot(time, data, label=label)
+    plt.legend()
+    plt.savefig("./mnist_train_acc_time.png")
+
+
+def show_test_loss_time(time, data, label):
+    plt.figure(7)
+    plt.ylabel("Test loss")
+    plt.xlabel("Time")
+    plt.plot(time, data, label=label)
+    plt.legend()
+    plt.savefig("./mnist_test_loss_time.png")
+
+
+def show_test_acc_time(time, data, label):
+    plt.figure(8)
+    plt.ylabel("Test acc")
+    plt.xlabel("Time")
+    plt.plot(time, data, label=label)
+    plt.legend()
+    plt.savefig("./mnist_test_acc_time.png")
+
 
 def main(_):
-
     mnist, x, y, keep_prob = load_data()
     hiddle = nn_layer(x, 784, 100, keep_prob)
     y_l = nn_layer(hiddle, 100, 10, keep_prob, tf.identity)
@@ -137,11 +179,13 @@ def main(_):
     a1 = []
     a2 = []
     for name in myoptimization:
+        start_time = time.time()
         op = optimization(name, loss)
-        print(name + "的train和test准确率：", end="")
-        count, train_loss, test_loss, train_acc, test_acc, train_acc_data, test_acc_data = iterations(mnist, x, y,
+        # print(name + "的train和test准确率：", end="")
+        count, train_loss, test_loss, train_acc, test_acc, train_acc_data, test_acc_data,mytime = iterations(name, mnist, x, y,
                                                                                                       keep_prob, loss,
-                                                                                                      accuracy, op)
+                                                                                                      accuracy, op,
+                                                                                                      start_time)
         a1.append(train_acc_data)
         a2.append(test_acc_data)
         show_train_loss(count, train_loss, name)
@@ -161,7 +205,7 @@ if __name__ == '__main__':
                         help='Number of steps to run trainer.')
     parser.add_argument('--learning_rate', type=float, default=0.001,
                         help='Initial learning rate')
-    parser.add_argument('--dropout', type=float, default=0.9,
+    parser.add_argument('--dropout', type=float, default=1.0,
                         help='Keep probability for training dropout.')
     parser.add_argument('--data_dir', type=str, default=r"C:\tantao\pycharm\workspace\acadg_new\MNIST_data",
                         help='Directory for storing input data')

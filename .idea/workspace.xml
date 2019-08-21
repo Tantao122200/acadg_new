@@ -11,12 +11,14 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/acadg_new$mnist01.coverage" NAME="mnist01 Coverage Results" MODIFIED="1556157895430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logic" />
     <SUITE FILE_PATH="coverage/acadg_new$cifar_dnn.coverage" NAME="cifar_dnn Coverage Results" MODIFIED="1556163488992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DNN" />
+    <SUITE FILE_PATH="coverage/acadg_new$cifar_cnn__1_.coverage" NAME="cifar_cnn (1) Coverage Results" MODIFIED="1566269359999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN/cifar" />
     <SUITE FILE_PATH="coverage/acadg_new$logic_show.coverage" NAME="logic_show Coverage Results" MODIFIED="1556195662274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logic/GPU" />
-    <SUITE FILE_PATH="coverage/acadg_new$mnist_dnn.coverage" NAME="mnist_dnn Coverage Results" MODIFIED="1556245830454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DNN" />
+    <SUITE FILE_PATH="coverage/acadg_new$mnist_dnn.coverage" NAME="mnist_dnn Coverage Results" MODIFIED="1566026514611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DNN" />
     <SUITE FILE_PATH="coverage/acadg_new$mnist_logic.coverage" NAME="mnist_logic Coverage Results" MODIFIED="1557149814427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logic" />
     <SUITE FILE_PATH="coverage/acadg_new$tensorflow_cnn_cifar10.coverage" NAME="tensorflow_cnn_cifar10 Coverage Results" MODIFIED="1557388776481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN" />
     <SUITE FILE_PATH="coverage/acadg_new$mnist02.coverage" NAME="mnist02 Coverage Results" MODIFIED="1556158655784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DNN" />
     <SUITE FILE_PATH="coverage/acadg_new$cifar_logic.coverage" NAME="cifar_logic Coverage Results" MODIFIED="1556193187327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logic" />
+    <SUITE FILE_PATH="coverage/acadg_new$dengzhixian.coverage" NAME="dengzhixian Coverage Results" MODIFIED="1566286408407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN/mnist" />
     <SUITE FILE_PATH="coverage/acadg_new$testOne.coverage" NAME="testOne Coverage Results" MODIFIED="1556165172129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/syn" />
     <SUITE FILE_PATH="coverage/acadg_new$cnn_show.coverage" NAME="cnn_show Coverage Results" MODIFIED="1556240978903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN/GPU" />
     <SUITE FILE_PATH="coverage/acadg_new$cifar_cnn.coverage" NAME="cifar_cnn Coverage Results" MODIFIED="1557923854917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN" />
@@ -28,53 +30,54 @@
     <session id="-98412132">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.0" value="9" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.3" value="5" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="BUILD" value="1" />
-          <entry key="csv" value="85" />
-          <entry key="png" value="381" />
-          <entry key="py" value="220" />
+          <entry key="csv" value="104" />
+          <entry key="png" value="426" />
+          <entry key="py" value="264" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="381" />
-          <entry key="PLAIN_TEXT" value="86" />
-          <entry key="Python" value="220" />
+          <entry key="Image" value="426" />
+          <entry key="PLAIN_TEXT" value="105" />
+          <entry key="Python" value="264" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="csv" value="27" />
-          <entry key="dummy" value="34" />
-          <entry key="py" value="1898" />
-          <entry key="txt" value="30" />
+          <entry key="csv" value="33" />
+          <entry key="dummy" value="37" />
+          <entry key="py" value="2350" />
+          <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="91" />
-          <entry key="Python" value="1898" />
+          <entry key="PLAIN_TEXT" value="107" />
+          <entry key="Python" value="2350" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,6 +91,8 @@
       <find>nn_layer</find>
       <find>cnn</find>
       <find>next_test_batch</find>
+      <find>accuracy_prediction</find>
+      <find>loss_prediction</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,11 +124,18 @@
         <option value="$PROJECT_DIR$/CNN/mnist_cnn.py" />
         <option value="$PROJECT_DIR$/CNN/GPU/cifar_cnn_GPU.py" />
         <option value="$PROJECT_DIR$/logic/mnist_logic.py" />
-        <option value="$PROJECT_DIR$/DNN/mnist_dnn.py" />
         <option value="$PROJECT_DIR$/CNN/tensorflow_cnn_cifar10.py" />
         <option value="$PROJECT_DIR$/CNN/some.py" />
         <option value="$PROJECT_DIR$/CNN/cifar_cnn_GPU.py" />
         <option value="$PROJECT_DIR$/CNN/cifar_cnn.py" />
+        <option value="$PROJECT_DIR$/CNN/draw.py" />
+        <option value="$PROJECT_DIR$/DNN/mnist_dnn.py" />
+        <option value="$PROJECT_DIR$/CNN/mnist/dengzhixian.py" />
+        <option value="$PROJECT_DIR$/CNN/mnist/draw.py" />
+        <option value="$PROJECT_DIR$/CNN/cifar/cifar_cnn.py" />
+        <option value="$PROJECT_DIR$/CNN/mnist/mnist_cnn.py" />
+        <option value="$PROJECT_DIR$/DNN/dnn_mnist.csv" />
+        <option value="$PROJECT_DIR$/CNN/mnist/cnn_mnist.csv" />
       </list>
     </option>
   </component>
@@ -134,8 +146,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="6" />
-    <option name="y" value="58" />
+    <option name="x" value="12" />
+    <option name="y" value="93" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -161,25 +173,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../git/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GraduationDesign" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\tantao\pycharm\workspace\acadg_new" />
       <recent name="C:\tantao\pycharm\workspace\acadg_new\CNN\tutorials" />
       <recent name="C:\tantao\pycharm\workspace\acadg_new\CNN\cifar" />
       <recent name="C:\tantao\pycharm\workspace\acadg_new\CNN" />
       <recent name="C:\tantao\pycharm\workspace\acadg_new\CNN\data" />
-      <recent name="C:\tantao\pycharm\workspace\acadg_new\CNN\mnist" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\tantao\pycharm\workspace\acadg_new\CNN\cifar" />
-      <recent name="C:\tantao\pycharm\workspace\acadg_new\syn" />
-      <recent name="C:\tantao\pycharm\workspace\acadg_new\CNN\cifar\new" />
-      <recent name="C:\tantao\pycharm\workspace\acadg_new\CNN" />
       <recent name="C:\tantao\pycharm\workspace\acadg_new" />
+      <recent name="C:\tantao\pycharm\workspace\acadg_new\CNN\cifar" />
+      <recent name="C:\tantao\pycharm\workspace\acadg_new\CNN\mnist" />
+      <recent name="C:\tantao\pycharm\workspace\acadg_new\CNN" />
+      <recent name="C:\tantao\pycharm\workspace\acadg_new\syn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -194,7 +206,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cifar_cnn">
+  <component name="RunManager" selected="Python.dengzhixian">
+    <configuration name="cifar_cnn (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="acadg_new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN/cifar" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/cifar/cifar_cnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cifar_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="acadg_new" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,7 +273,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mnist_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dengzhixian" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="acadg_new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,12 +281,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN/mnist" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\tantao\pycharm\workspace\acadg_new\CNN\mnist\mnist_cnn.py" />
+      <option name="SCRIPT_NAME" value="C:\tantao\pycharm\workspace\acadg_new\CNN\mnist\draw.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,7 +295,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mnist_logic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mnist_dnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="acadg_new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,34 +303,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logic/mnist_logic.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tensorflow_cnn_cifar10" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="acadg_new" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\tantao\pycharm\workspace\acadg_new\CNN\tutorials\tensorflow_cnn_cifar10.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DNN/mnist_dnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,19 +318,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.mnist_cnn" />
-      <item itemvalue="Python.mnist_logic" />
       <item itemvalue="Python.cifar_cnn_GPU" />
-      <item itemvalue="Python.tensorflow_cnn_cifar10" />
       <item itemvalue="Python.cifar_cnn" />
+      <item itemvalue="Python.mnist_dnn" />
+      <item itemvalue="Python.cifar_cnn (1)" />
+      <item itemvalue="Python.dengzhixian" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dengzhixian" />
+        <item itemvalue="Python.cifar_cnn (1)" />
+        <item itemvalue="Python.mnist_dnn" />
         <item itemvalue="Python.cifar_cnn" />
         <item itemvalue="Python.cifar_cnn_GPU" />
-        <item itemvalue="Python.tensorflow_cnn_cifar10" />
-        <item itemvalue="Python.mnist_logic" />
-        <item itemvalue="Python.mnist_cnn" />
       </list>
     </recent_temporary>
   </component>
@@ -337,6 +349,21 @@
       <option name="presentableId" value="Default" />
       <updated>1556112500696</updated>
     </task>
+    <task id="LOCAL-00001" summary="tantao">
+      <created>1566296129729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566296129729</updated>
+    </task>
+    <task id="LOCAL-00002" summary="tantao">
+      <created>1566296446003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566296446003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -351,12 +378,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14712153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86993605" visible="true" weight="0.3572204" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32887402" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86993605" weight="0.11928651" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,8 +391,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.13006397" side_tool="true" visible="true" weight="0.28121606" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49733475" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.13006397" side_tool="true" weight="0.28093645" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49733475" weight="0.32887402" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4989339" weight="0.32899022" />
       <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.53571427" weight="0.1465798" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -381,81 +408,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tantao" />
+    <option name="LAST_COMMIT_MESSAGE" value="tantao" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNN/picture/mnist_train_loss.png" />
-    <entry file="file://$PROJECT_DIR$/CNN/GPU/cifar_cnn_ACADG.csv" />
-    <entry file="file://$PROJECT_DIR$/CNN/GPU/cifar_cnn_ADAM.csv" />
-    <entry file="file://$PROJECT_DIR$/CNN/GPU/cifar_cnn_AMSGRAD.csv" />
-    <entry file="file://$PROJECT_DIR$/CNN/GPU/cnn_show.py" />
-    <entry file="file://$PROJECT_DIR$/CNN/mnist/mnist_test_loss.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/mnist/mnist_train_loss.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/GPU/cifar_cnn_GPU.py" />
-    <entry file="file://$PROJECT_DIR$/DNN/mnist_test_acc.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DNN/mnist_train_acc.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DNN/mnist_test_loss.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/mnist_train_loss.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/mnist/mnist_train_acc.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/optimizer/ACADG.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/tutorials/rnn/ptb/BUILD">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/tutorials/image/cifar10/cifar10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7125" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/555309021/-1382175924/tensorflow/python/ops/nn_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="2661" column="4" selection-start-line="2661" selection-start-column="4" selection-end-line="2661" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/tutorials/image/cifar10/cifar10_input.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/mnist/cnn_mnist.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DNN/dnn_mnist.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/mnist_train_acc.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/mnist_test_loss.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/555309021/-1382175924/tensorflow/python/ops/math_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="419" column="4" selection-start-line="419" selection-start-column="4" selection-end-line="419" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/some.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/555309021/-1382175924/tensorflow/python/ops/gen_nn_ops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -463,29 +420,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/tutorials/tensorflow_cnn_cifar10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="33" column="105" selection-start-line="33" selection-end-line="33" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/optimizer/ACADG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="75" column="64" lean-forward="true" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/cifar/cifar_test_loss.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/cifar/cifar_train_acc.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/cifar/cifar_train_loss.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/tutorials/tensorflow_cnn_cifar10.py" />
+    <entry file="file://$PROJECT_DIR$/CNN/optimizer/ACADG.py" />
     <entry file="file://$PROJECT_DIR$/CNN/cifar_cnn_GPU.py" />
     <entry file="file://$PROJECT_DIR$/CNN/cifar_test_loss.png" />
     <entry file="file://$PROJECT_DIR$/CNN/cifar_train_acc.png" />
@@ -494,40 +430,112 @@
     <entry file="file://$PROJECT_DIR$/CNN/cifar_cnn_gpu.csv" />
     <entry file="file://$PROJECT_DIR$/CNN/cifar_cnn.py" />
     <entry file="file://$PROJECT_DIR$/CNN/cifar/new/cifar_cnn_gpu.csv" />
+    <entry file="file://$PROJECT_DIR$/optimizer/ACADG.py" />
+    <entry file="file://$PROJECT_DIR$/CNN/cifar/new/cifar_cnn.py" />
+    <entry file="file://$PROJECT_DIR$/DNN/mnist_train_loss_time.png" />
+    <entry file="file://$PROJECT_DIR$/DNN/mnist_train_acc_time.png" />
+    <entry file="file://$PROJECT_DIR$/DNN/mnist_test_loss_time.png" />
+    <entry file="file://$PROJECT_DIR$/DNN/mnist_test_acc_time.png" />
+    <entry file="file://$PROJECT_DIR$/syn/stochastic.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syn/online.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/syn/synth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="425">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logic/mnist_test_acc.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/logic/optimizer/Adam.py" />
+    <entry file="file://$PROJECT_DIR$/logic/optimizer/AMSGrad.py" />
+    <entry file="file://$PROJECT_DIR$/logic/optimizer/ACADG.py" />
+    <entry file="file://$PROJECT_DIR$/DNN/mnist_train_loss.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNN/mnist_train_acc.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNN/mnist_test_loss.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNN/mnist_test_acc.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/cifar/cifar_train_acc.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/cifar/cifar_train_loss.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/cifar/cifar_test_loss.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/cifar/cifar_test_acc.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/draw.py" />
+    <entry file="file://$PROJECT_DIR$/CNN/asgd.png" />
+    <entry file="file://$PROJECT_DIR$/CNN/dengzhixian.py" />
+    <entry file="file://$PROJECT_DIR$/CNN/mnist/dengzhixian.py" />
+    <entry file="file://$PROJECT_DIR$/CNN/mnist/draw.py" />
+    <entry file="file://$PROJECT_DIR$/Server/test01.py" />
+    <entry file="file://$PROJECT_DIR$/CNN/mnist/mnist_train_loss.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/mnist/mnist_train_acc.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/mnist/mnist_test_loss.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/mnist/mnist_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1403">
+          <caret line="113" column="38" selection-start-line="113" selection-start-column="38" selection-end-line="113" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/optimizer/Adam.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNN/mnist_dnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="193" column="44" selection-start-line="193" selection-start-column="44" selection-end-line="193" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/logic/mnist_logic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1429">
-          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        <state relative-caret-position="-2603">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logic/logic_mnist.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DNN/mnist_dnn.py">
+    <entry file="file://$PROJECT_DIR$/DNN/dnn_mnist.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="164" column="70" lean-forward="true" selection-start-line="163" selection-start-column="4" selection-end-line="164" selection-end-column="70" />
+        <state relative-caret-position="75">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/mnist/cnn_mnist.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNN/mnist/mnist_test_acc.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/optimizer/ACADG.py" />
-    <entry file="file://$PROJECT_DIR$/optimizer/Adam.py" />
-    <entry file="file://$PROJECT_DIR$/CNN/cifar/new/cifar_cnn.py" />
-    <entry file="file://$PROJECT_DIR$/CNN/cifar/cifar_test_acc.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CNN/cifar/cifar_cnn_gpu.csv">
@@ -538,15 +546,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNN/cifar/cifar_cnn.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/mnist/mnist_cnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-928">
+          <caret line="159" column="27" selection-start-line="159" selection-start-column="27" selection-end-line="159" selection-end-column="27" />
         </state>
       </provider>
     </entry>

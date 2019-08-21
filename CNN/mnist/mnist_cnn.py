@@ -109,15 +109,16 @@ def iterations(mnist, input_tensor, labels, loss, accuracy, optimizate):
             train_loss.append(loss_train)
             train_acc.append(acc_train)
             batch_xs, batch_ys = mnist.test.next_batch(128)
-            test_loss.append(sess.run(loss, feed_dict={input_tensor: batch_xs, labels: batch_ys}))
-            test_acc.append(sess.run(accuracy, feed_dict={input_tensor: batch_xs, labels: batch_ys}))
+            test_loss_, test_acc_ = sess.run([loss, accuracy], feed_dict={input_tensor: batch_xs, labels: batch_ys})
+            test_loss.append(test_loss_)
+            test_acc.append(test_acc_)
         if (i == FLAGS.max_steps-1):
             batch_xs, batch_ys = mnist.train.next_batch(128)
             train_acc_data = sess.run(accuracy,
                                       feed_dict={input_tensor: batch_xs, labels: batch_ys})
             batch_xs, batch_ys = mnist.test.next_batch(128)
             test_acc_data = sess.run(accuracy, feed_dict={input_tensor: batch_xs, labels: batch_ys})
-            print(train_acc_data, end=" ")
+            print(train_acc_data)
             print(test_acc_data)
     return count, train_loss, test_loss, train_acc, test_acc, train_acc_data, test_acc_data
 
@@ -168,15 +169,15 @@ def main(_):
     a2 = []
     for name in myoptimization:
         op = optimization(name, loss)
-        print(name + "的train和test准确率: ", end="")
+        print(name + "的train和test准确率: ")
         count, train_loss, test_loss, train_acc, test_acc, train_acc_data, test_acc_data = iterations(mnist, x, y, loss,
                                                                                                       accuracy, op)
         a1.append(train_acc_data)
         a2.append(test_acc_data)
-        show_train_loss(count, train_loss, name)
-        show_test_loss(count, test_loss, name)
-        show_train_acc(count, train_acc, name)
-        show_test_acc(count, test_acc, name)
+        # show_train_loss(count, train_loss, name)
+        # show_test_loss(count, test_loss, name)
+        # show_train_acc(count, train_acc, name)
+        # show_test_acc(count, test_acc, name)
 
     w_csv = pd.DataFrame({"name": myoptimization, "train_acc": a1, "test_acc": a2})
     w_csv.to_csv("./cnn_mnist.csv", encoding="utf-8")
