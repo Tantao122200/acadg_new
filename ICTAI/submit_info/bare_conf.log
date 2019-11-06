@@ -1,0 +1,450 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2019.5.2)  5 NOV 2019 20:37
+entering extended mode
+**D:/ACADG/ICTAI/submit_info/bare_conf.tex
+(D:/ACADG/ICTAI/submit_info/bare_conf.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(D:\ACADG\ICTAI\submit_info\IEEEtran.cls
+Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 373.
+
+(C:\CTEX\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen104
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen105
+\CLASSINFOnormalsizeunitybaselineskip=\dimen106
+\IEEEnormaljot=\dimen107
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+\IEEEilabelindentA=\dimen108
+\IEEEilabelindentB=\dimen109
+\IEEEilabelindent=\dimen110
+\IEEEelabelindent=\dimen111
+\IEEEdlabelindent=\dimen112
+\IEEElabelindent=\dimen113
+\IEEEiednormlabelsep=\dimen114
+\IEEEiedmathlabelsep=\dimen115
+\IEEEiedtopsep=\skip41
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@IEEEsubequation=\count85
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count86
+\c@table=\count87
+\@IEEEeqnnumcols=\count88
+\@IEEEeqncolcnt=\count89
+\@IEEEtmpitemindent=\dimen116
+\c@IEEEbiography=\count90
+\@IEEEtranrubishbin=\box26
+) (C:\CTEX\MiKTeX\tex\latex\caption\caption.sty
+Package: caption 2011/11/10 v3.2e Customizing captions (AR)
+
+(C:\CTEX\MiKTeX\tex\latex\caption\caption3.sty
+Package: caption3 2011/11/01 v1.4a caption3 kernel (AR)
+
+(C:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\captionmargin=\dimen117
+\captionmargin@=\dimen118
+\captionwidth=\dimen119
+\caption@indent=\dimen120
+\caption@parindent=\dimen121
+\caption@hangindent=\dimen122
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \footnotesize \begin {center}{\normalfont \footnotesize #1}\\{\normal
+font \footnotesize \scshape #2}\end {center}\@IEEEtablecaptionsepspace \else \@
+IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {
+#1.}~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \
+footnotesize {#1.}~~ }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent 
+\unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfon
+t \footnotesize \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont 
+\footnotesize \box \@tempboxa \hfil }\fi \fi \fi .
+\c@ContinuedFloat=\count91
+) (C:\CTEX\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
+Package: algpseudocode 
+
+(C:\CTEX\MiKTeX\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\CTEX\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count92
+\c@ALG@rem=\count93
+\c@ALG@nested=\count94
+\ALG@tlm=\skip44
+\ALG@thistlm=\skip45
+\c@ALG@Lnr=\count95
+\c@ALG@blocknr=\count96
+\c@ALG@storecount=\count97
+\c@ALG@tmpcounter=\count98
+\ALG@tmplength=\skip46
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (C:\CTEX\MiKTeX\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(C:\CTEX\MiKTeX\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count99
+\float@exts=\toks16
+\float@box=\box27
+\@float@everytoks=\toks17
+\@floatcapt=\box28
+)
+\@float@every@algorithm=\toks18
+\c@algorithm=\count100
+)
+(C:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(C:\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(C:\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+))
+\Gin@req@height=\dimen123
+\Gin@req@width=\dimen124
+)
+(C:\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
+\bigstrutjot=\dimen125
+)
+(D:\ACADG\ICTAI\submit_info\bare_conf.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen126
+\scratchbox=\box29
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen127
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks20
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 417.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 421.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 421.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 421.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 445.
+
+Underfull \vbox (badness 8000) has occurred while \output is active []
+
+ [1{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
+
+
+] [2]
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+ [3]
+<picture//syn//online.png, id=30, 462.528pt x 346.896pt>
+File: picture//syn//online.png Graphic file (type png)
+
+<use picture//syn//online.png>
+Package pdftex.def Info: picture//syn//online.png used on input line 658.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//syn//stochastic.png, id=32, 462.528pt x 346.896pt>
+File: picture//syn//stochastic.png Graphic file (type png)
+
+<use picture//syn//stochastic.png>
+Package pdftex.def Info: picture//syn//stochastic.png used on input line 662.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//logic//mnist_train_acc.png, id=33, 462.528pt x 346.896pt>
+File: picture//logic//mnist_train_acc.png Graphic file (type png)
+
+<use picture//logic//mnist_train_acc.png>
+Package pdftex.def Info: picture//logic//mnist_train_acc.png used on input line
+ 704.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//logic//mnist_train_loss.png, id=34, 462.528pt x 346.896pt>
+File: picture//logic//mnist_train_loss.png Graphic file (type png)
+
+<use picture//logic//mnist_train_loss.png>
+Package pdftex.def Info: picture//logic//mnist_train_loss.png used on input lin
+e 708.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//logic//mnist_test_acc.png, id=35, 462.528pt x 346.896pt>
+File: picture//logic//mnist_test_acc.png Graphic file (type png)
+
+<use picture//logic//mnist_test_acc.png>
+Package pdftex.def Info: picture//logic//mnist_test_acc.png used on input line 
+715.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//logic//mnist_test_loss.png, id=36, 462.528pt x 346.896pt>
+File: picture//logic//mnist_test_loss.png Graphic file (type png)
+
+<use picture//logic//mnist_test_loss.png>
+Package pdftex.def Info: picture//logic//mnist_test_loss.png used on input line
+ 719.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//DNN//mnist_train_acc.png, id=37, 462.528pt x 346.896pt>
+File: picture//DNN//mnist_train_acc.png Graphic file (type png)
+
+<use picture//DNN//mnist_train_acc.png>
+Package pdftex.def Info: picture//DNN//mnist_train_acc.png used on input line 7
+26.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//DNN//mnist_train_loss.png, id=38, 462.528pt x 346.896pt>
+File: picture//DNN//mnist_train_loss.png Graphic file (type png)
+
+<use picture//DNN//mnist_train_loss.png>
+Package pdftex.def Info: picture//DNN//mnist_train_loss.png used on input line 
+730.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//DNN//mnist_test_acc.png, id=39, 462.528pt x 346.896pt>
+File: picture//DNN//mnist_test_acc.png Graphic file (type png)
+
+<use picture//DNN//mnist_test_acc.png>
+Package pdftex.def Info: picture//DNN//mnist_test_acc.png used on input line 73
+7.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//DNN//mnist_test_loss.png, id=40, 462.528pt x 346.896pt>
+File: picture//DNN//mnist_test_loss.png Graphic file (type png)
+
+<use picture//DNN//mnist_test_loss.png>
+Package pdftex.def Info: picture//DNN//mnist_test_loss.png used on input line 7
+41.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+ [4 <D:/ACADG/ICTAI/submit_info/picture//syn//online.png> <D:/ACADG/ICTAI/submi
+t_info/picture//syn//stochastic.png> <D:/ACADG/ICTAI/submit_info/picture//logic
+//mnist_train_acc.png> <D:/ACADG/ICTAI/submit_info/picture//logic//mnist_train_
+loss.png> <D:/ACADG/ICTAI/submit_info/picture//logic//mnist_test_acc.png> <D:/A
+CADG/ICTAI/submit_info/picture//logic//mnist_test_loss.png> <D:/ACADG/ICTAI/sub
+mit_info/picture//DNN//mnist_train_acc.png> <D:/ACADG/ICTAI/submit_info/picture
+//DNN//mnist_train_loss.png> <D:/ACADG/ICTAI/submit_info/picture//DNN//mnist_te
+st_acc.png> <D:/ACADG/ICTAI/submit_info/picture//DNN//mnist_test_loss.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 763.
+
+<picture//CNN//mnist//mnist_train_acc.png, id=54, 462.528pt x 346.896pt>
+File: picture//CNN//mnist//mnist_train_acc.png Graphic file (type png)
+
+<use picture//CNN//mnist//mnist_train_acc.png>
+Package pdftex.def Info: picture//CNN//mnist//mnist_train_acc.png used on input
+ line 785.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//CNN//mnist//mnist_train_loss.png, id=55, 462.528pt x 346.896pt>
+File: picture//CNN//mnist//mnist_train_loss.png Graphic file (type png)
+
+<use picture//CNN//mnist//mnist_train_loss.png>
+Package pdftex.def Info: picture//CNN//mnist//mnist_train_loss.png used on inpu
+t line 789.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//CNN//mnist//mnist_test_acc.png, id=56, 462.528pt x 346.896pt>
+File: picture//CNN//mnist//mnist_test_acc.png Graphic file (type png)
+
+<use picture//CNN//mnist//mnist_test_acc.png>
+Package pdftex.def Info: picture//CNN//mnist//mnist_test_acc.png used on input 
+line 796.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//CNN//mnist//mnist_test_loss.png, id=57, 462.528pt x 346.896pt>
+File: picture//CNN//mnist//mnist_test_loss.png Graphic file (type png)
+
+<use picture//CNN//mnist//mnist_test_loss.png>
+Package pdftex.def Info: picture//CNN//mnist//mnist_test_loss.png used on input
+ line 800.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//CNN//cifar-10//cifar_train_acc.png, id=58, 462.528pt x 346.896pt>
+File: picture//CNN//cifar-10//cifar_train_acc.png Graphic file (type png)
+
+<use picture//CNN//cifar-10//cifar_train_acc.png>
+Package pdftex.def Info: picture//CNN//cifar-10//cifar_train_acc.png used on in
+put line 807.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//CNN//cifar-10//cifar_train_loss.png, id=59, 462.528pt x 346.896pt>
+File: picture//CNN//cifar-10//cifar_train_loss.png Graphic file (type png)
+
+<use picture//CNN//cifar-10//cifar_train_loss.png>
+Package pdftex.def Info: picture//CNN//cifar-10//cifar_train_loss.png used on i
+nput line 811.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//CNN//cifar-10//cifar_test_acc.png, id=60, 462.528pt x 346.896pt>
+File: picture//CNN//cifar-10//cifar_test_acc.png Graphic file (type png)
+
+<use picture//CNN//cifar-10//cifar_test_acc.png>
+Package pdftex.def Info: picture//CNN//cifar-10//cifar_test_acc.png used on inp
+ut line 818.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+
+<picture//CNN//cifar-10//cifar_test_loss.png, id=61, 462.528pt x 346.896pt>
+File: picture//CNN//cifar-10//cifar_test_loss.png Graphic file (type png)
+
+<use picture//CNN//cifar-10//cifar_test_loss.png>
+Package pdftex.def Info: picture//CNN//cifar-10//cifar_test_loss.png used on in
+put line 822.
+(pdftex.def)             Requested size: 121.95563pt x 91.46649pt.
+ [5 <D:/ACADG/ICTAI/submit_info/picture//CNN//mnist//mnist_train_acc.png> <D:/A
+CADG/ICTAI/submit_info/picture//CNN//mnist//mnist_train_loss.png> <D:/ACADG/ICT
+AI/submit_info/picture//CNN//mnist//mnist_test_acc.png> <D:/ACADG/ICTAI/submit_
+info/picture//CNN//mnist//mnist_test_loss.png> <D:/ACADG/ICTAI/submit_info/pict
+ure//CNN//cifar-10//cifar_train_acc.png> <D:/ACADG/ICTAI/submit_info/picture//C
+NN//cifar-10//cifar_train_loss.png> <D:/ACADG/ICTAI/submit_info/picture//CNN//c
+ifar-10//cifar_test_acc.png> <D:/ACADG/ICTAI/submit_info/picture//CNN//cifar-10
+//cifar_test_loss.png>]
+[6]
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[7
+
+] (D:\ACADG\ICTAI\submit_info\bare_conf.aux) ) 
+Here is how much of TeX's memory you used:
+ 3547 strings out of 495354
+ 58067 string characters out of 3183860
+ 114821 words of memory out of 3000000
+ 6698 multiletter control sequences out of 15000+200000
+ 38475 words of font info for 74 fonts, out of 3000000 for 9000
+ 17 hyphenation exceptions out of 8191
+ 36i,9n,38p,1378b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/CTEX/MiKTeX/fonts/enc/dvips/f
+ontname/8r.enc}<C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/CT
+EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmmi5.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+mi6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/CTEX/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C
+:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/CTEX/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+<C:/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/ur
+w/times/utmbi8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/CTEX/M
+iKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bare_conf.pdf (7 pages, 814635 bytes).
+PDF statistics:
+ 140 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+

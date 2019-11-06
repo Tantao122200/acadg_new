@@ -159,6 +159,7 @@ def show_test_loss_time(time, data, label):
     plt.savefig("./mnist_test_loss_time.png")
 
 
+
 def show_test_acc_time(time, data, label):
     plt.figure(8)
     plt.ylabel("Test acc")
